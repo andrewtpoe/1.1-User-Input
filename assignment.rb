@@ -40,10 +40,8 @@ while decision_LCV == 1
       puts "#{name}, aren't you a little short for a Storm Trooper?"
     when "3"
       puts "Hey, #{name}! Who's scruffy-lookin'?"
-    when "4"
-      puts "#{name}, I loathe bounty hunters. We don't need their scum..."
     else
-      puts "#{name}, meesa Jar Jar Binks."
+      puts "#{name}, I loathe bounty hunters. We don't need their scum..."
     end
     decision_LCV = 0
   else
